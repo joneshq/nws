@@ -19,3 +19,7 @@ Options:
     Open your system's web browser to localhost:<port>
   -h, --help
     Show this help information.
+  -n, --not-found
+    serve this file as a default, catch-all, when a 404 notfound would otherwise occur
+    specify a file relative to the current working directory
+    Exampe: -n dist/index.html

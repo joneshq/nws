@@ -1,7 +1,7 @@
 {
   "name": "nws",
   "description": "Launch a node-powered static web server in the current working directory.",
-  "version": "0.6.1",
+  "version": "0.6.1-1",
   "author": {
     "name": "Kenneth Powers",
     "email": "mail@kenpowers.net"
@@ -13,7 +13,8 @@
   "dependencies": {
     "optimist": "0.3.1",
     "connect": "~2.7.3",
-    "open": "0.0.4"
+    "open": "0.0.4",
+    "send": "0.13.0"
   },
   "repository": "git://github.com/KenPowers/nws",
   "bin": {
